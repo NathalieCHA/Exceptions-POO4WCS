@@ -11,7 +11,7 @@ $car->start();
         $car->start();
 
     } catch (Exception $e) {
-        $car->setParkBrake()=== true;
+        $car->$this->setParkBrake()=== true;
     } finally {
         echo "Ma voiture roule comme un donut !";
     }
